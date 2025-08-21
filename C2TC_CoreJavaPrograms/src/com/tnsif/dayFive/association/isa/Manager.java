@@ -1,6 +1,6 @@
 package com.tnsif.dayFive.association.isa;
 
-public class Manager {
+public class Manager extends Employee{
 	private int teamSize;
 
 	// constructors

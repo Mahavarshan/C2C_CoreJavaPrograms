@@ -11,7 +11,6 @@ public class Employee {
 	}
 
 	public Employee(String name, int employeeId, String department) {
-		super();
 		this.name = name;
 		this.employeeId = employeeId;
 		this.department = department;

@@ -1,12 +1,14 @@
 package com.tnsif.dayFive.hierarchicalinherutance;
-
+import java.util.*;
 public class Demo {
+	
+	public static void main (String args[])
+	{
 	Person p1 = new Person();
 	System.out.println("----------------- Person Details ---------------------");
 	System.out.println(p1);
 
-	Person p;
-	p = new Person("Dhruv", "Mumbai");
+	Person p= new Person("Dhruv", "Mumbai");
 	if (p instanceof Person)
 		System.out.println("Person Details "+p);
 	
@@ -19,5 +21,6 @@ public class Demo {
 	if (p instanceof Student)
 		System.out.println("Student Details "+p);
 
+	}
 }
-}
+

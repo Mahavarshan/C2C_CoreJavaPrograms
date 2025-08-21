@@ -1,7 +1,7 @@
 package com.tnsif.dayFive.hierarchicalinherutance;
 
-public class Employee {
-	public class Employee extends Person {
+public class Employee extends Person {
+	
 		private int empId;
 		private float salary;
 		private String dept;
@@ -63,3 +63,4 @@ public class Employee {
 					+ ", getCity()=" + getCity() + "]";
 		}
 }
+
